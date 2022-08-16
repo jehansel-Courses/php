@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>62 - Sesiones y PHP SELF</title>
+    <style>
+        h1,
+        h2,
+        div {
+            text-align: center;
+        }
+
+        .tresd {
+            box-shadow: 3px 3px 7px rgba(174, 174, 192, 0.25),
+                        -3px -3px 7px rgba(255, 255, 255, 0.7),
+                        inset 3px 3px 3px rgba(255, 255, 255, 0.7),
+                        inset -3px -3px 3px rgba(174, 174, 192, 0.25);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="form1" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+        <table border="0" align="center">
+            <tr>
+                <td class="tresd">Usuario</td>
+                <td>
+                    <label for="usuario"></label><input class="tresd" type="text" name="usuario" id="usuario">
+                </td>
+            </tr>
+            <tr>
+                <td class="tresd">Contraseña</td>
+                <td>
+                    <label for="contrasena"></label><input class="tresd" type="password" name="contrasena"
+                        id="contrasena">
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Recordar usuario</td>
+                <td><input type="checkbox" name="recordar" id="recordar"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" id="boton"><input class="tresd" type="submit" name="enviar" id="enviar"
+                        value="Acceder"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
