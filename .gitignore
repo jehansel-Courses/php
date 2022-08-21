@@ -1,0 +1,16 @@
+# G:\Mi unidad\Developer\PHP
+# El repositorio local se encuentra en
+# G:\Mi unidad\Developer\PHP\.git
+# =============================================================
+# Rutas y/o carpetas
+# G:\Mi unidad\Developer\PHP
+.vscode
+# pildorasinformaticas
+/pildorasinformaticas/Curso PHP MySQL/videos/
+/pildorasinformaticas/Curso PHP MySQL/ejercicios/imagenesServidor/uploadImages/
+# =============================================================
+# Archivos
+desktop.ini
+php_errorlog
+.htaccess
+#.gitignore
