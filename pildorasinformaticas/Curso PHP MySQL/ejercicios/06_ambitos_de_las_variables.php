@@ -13,7 +13,7 @@
 			$nombre = "Juan M";
 
 			function dameNombre() {
-				//global $nombre;
+				global $nombre;
 				$nombre = "El nombre es " . $nombre;
 			}
 
