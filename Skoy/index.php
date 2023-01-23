@@ -29,7 +29,7 @@ try {
     $mail->Host       = 'mail.paginaswebrr.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'envios@paginaswebrr.com';                     //SMTP username
-    $mail->Password   = 'aJ1u8zHl)H.?';                               //SMTP password
+    $mail->Password   = 'aaaaa';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption (si el sitio tiene CANDADITO usar ssl, si no, usar tls)
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
