@@ -43,7 +43,7 @@ function Reverse($input){
 
 function TestReverse(){
     print(Reverse("aabbb"));
-    print(Reverse("a"));
+    print(Reverse("abc"));
     print(Reverse("abcdef"));
 }
 
