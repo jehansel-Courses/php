@@ -1,6 +1,6 @@
 <?php
 	function dameDatos() {
-		echo "Este es el mensaje del interior de la función <br>";
+		echo "2023.07.29 - Este es el mensaje del interior de la función <br>";
 		echo "y está fuera antes del HTML tag <br>";
 	}
 ?>
